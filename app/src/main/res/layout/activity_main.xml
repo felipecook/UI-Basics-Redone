@@ -12,6 +12,20 @@
         android:layout_height="wrap_content"
         android:text="Hello World"
         android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:id="@+id/txtWelcome"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say Hello"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/cardview_dark_background"
+        android:onClick="onHelloButtonClicked"/>
 
 </RelativeLayout>
